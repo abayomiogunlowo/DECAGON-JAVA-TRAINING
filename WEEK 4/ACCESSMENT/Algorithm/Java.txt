@@ -1,0 +1,127 @@
+
+Menu
+Q
+Review
+Challenge #1
+Scored
+ Your Answers
+
+ Your Notes (Editable)
+1.
+What is unit testing and why is it an important aspect of software development?
+
+Unit testing is a software testing technique where individual units or components of a software application are tested in isolation from the rest of the system. The goal of unit testing is to validate that each unit of code is functioning as intended and to identify any bugs or errors early in the development process.
+
+IMPORTANCE OF UNIT TESTING
+1. Early bug detection
+2. Improved code quality
+3. Regression testing
+4. Documentation
+
+Overall, unit testing helps improve the reliability, maintainability, and scalability of software applications, leading to higher quality products.
+
+Using Java (JUnit) as an example;
+
+2.
+Define the following OOP concepts :
+
+Constructor
+Class
+Object
+Inheritance
+CONSTRUCTOR is a special method in a class that is automatically called when an object of that class is created. It is used to initialize the object's state.
+
+CLASS is a blueprint or template for creating objects in object-oriented programming. It defines the properties and behaviors that objects of that class will have.
+
+An OBJECT is an instance of a class. It represents a specific entity with its own set of properties and behaviors defined by the class.
+
+INHERITANCE is a mechanism in object-oriented programming that allows a class to inherit properties and behaviors from another class. This promotes code reusability and allows for creating a hierarchy of classes. Subclasses inherit the properties and behaviors of their parent class and can also have their own unique properties and behaviors.
+3.
+1a. What is Git and GitHub?
+
+1b. List 3 Git command.
+
+GIT is a distributed version control system used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects efficiently.
+
+GITHUB is a web-based platform that provides hosting for Git repositories. It offers additional features such as bug tracking, task management, and wikis, making it a popular choice for sharing code and collaborating with others.
+
+3 Git commands are:
+git init
+git add
+git commit
+
+4.
+What is the difference between abstract and interface?
+
+The difference between an abstract class and an interface is that an abstract class allows for defining methods and properties why an interface only allows for the main function name and allowed properties of that particular function.
+5.
+List 4 access modifiers.
+How can we acheive encapsulation in java?
+1. Private
+2. Public
+3. Static
+4. Void
+
+We can achieve encapsulation in java with the use of access modifiers to restrict that access that can be seen by other class within the project.
+6.
+Explain the following pillars of object oriented programming:
+Encapsulation,
+Polymorphism,
+Abstraction,
+Inheritance
+
+ENCAPSULATION is the concept of bundling data (attributes) and methods (functions) that operate on the data into a single unit, called a class. This unit restricts access to some of its components, protecting the integrity of the data and preventing outside interference.
+
+POLYMORPHISM refers to the ability of different objects to respond to the same message (method call) in different ways. This allows different classes to be treated as instances of a common superclass, providing flexibility and extensibility in object-oriented programming.
+
+ABSTRACTION is the process of hiding the complex implementation details of a class and only showing the necessary features of the object. It allows developers to focus on the essential characteristics of an object while ignoring irrelevant details.
+
+INHERITANCE is a mechanism in object-oriented programming that allows a class to inherit properties and behaviors from another class, called the superclass or parent class. This promotes code reusability and allows for the creation of hierarchies of classes with shared characteristics.
+
+7.
+What is polymorphism, list and explain 2 types of polymorphism supported in Java.
+
+Polymorphism is the ability of different objects to respond to the same message (method call) in different ways. This allows different classes to be treated as instances of a common superclass, providing flexibility and extensibility in object-oriented programming.
+
+TYPES OF POLYMORPHISM
+
+Method overloading
+Method overiding
+8.
+Define Method Overriding and Method Overloading.
+
+What are the differences?
+
+METHOD OVERIDING: This the ability for a class to redefine the functionality of a method inherited from another class. For example;
+@Overide
+overloadingFunction(String string){
+// todos
+}
+
+METHOD OVERLOADING: Same method name that can receive multiple variables to work with inside a class. For example;
+
+overloadingFunction(String string);
+overloadingFunction(String string, String string);
+overloadingFunction(String string, String string, String string);
+9.
+What is meant by Abstract class?
+
+Give an example using code.
+
+abstract Class <CLASSNAME> {
+// Fields
+// Constructors
+// Methods
+}
+
+10.
+1a. what is the use of java constructor?
+
+1b. what is the use of getters and setters?
+
+Java constructors are used to neatly define the values of fields inside a class.
+Getters and setters are used to access (Set values and get values) of fields/variables in a private class.
+Your Comments
+Optional comments about the assessment process, challenges, etc.
+​
+You can no longer make changes to your challenge submissions. You can manage your account settings or log out if you are done.
