@@ -10,6 +10,12 @@
         <module name="TEST" />
         <module name="OOP-SQ22" />
       </profile>
+      <profile name="Annotation profile for CLASSWORK" enabled="true">
+        <sourceOutputDir name="../../CLASSWORK/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../CLASSWORK/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CLASSWORK" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>
