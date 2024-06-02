@@ -6,15 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="WEEK6" />
+        <module name="WEEK7" />
         <module name="SELFDONE" />
         <module name="TEST" />
-        <module name="OOP-SQ22" />
-      </profile>
-      <profile name="Annotation profile for CLASSWORK" enabled="true">
-        <sourceOutputDir name="../../CLASSWORK/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../CLASSWORK/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="CLASSWORK" />
+        <module name="OOP-SQ22" />
       </profile>
     </annotationProcessing>
   </component>
