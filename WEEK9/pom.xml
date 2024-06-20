@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>WEEK7</artifactId>
+    <artifactId>WEEK9</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
