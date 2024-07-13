@@ -1,0 +1,5 @@
+TO SET UP VITE
+1.  npm create vite@latest vite-react-app
+2.  cd vite-react-app
+3.  npm install
+4.  npm run dev
